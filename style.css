@@ -160,6 +160,8 @@ form {
 .destination{background:#f7efef;}
 .destination-card{
     background:#fff ;
+    padding-bottom: 30p;
+    border: 1px solid #ccc;
 }
 .destination-card img {
     width:100%;
