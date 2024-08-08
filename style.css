@@ -63,12 +63,15 @@ li {
     padding: 20px;
     margin: auto;
 }
-.content-wrapper h1{
+
+.content-wrapper h1 {
     font-size: 23px;
     font-weight: 700;
 }
-form{    position: absolute;
-      background: linear-gradient(to right, #eed80f,rgb(5,118,170));
+
+form {
+    position: absolute;
+    background: linear-gradient(to right, #eed80f, rgb(5, 118, 170));
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -77,35 +80,89 @@ form{    position: absolute;
     /* justify-content: left; */
     padding: 30px;
 }
-.search-item{
+
+.search-item {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.search-item div{
+
+.search-item div {
     color: #443d3d;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 12px;
     margin-top: 10px;
 }
-.menu-icon{display: none;}
-.search-item input{height: 30px;
-padding: 0 20px;
-color: #5a5959;}
-.search-btn{
+
+.menu-icon {
+    display: none;
+}
+
+.search-item input {
+    height: 30px;
+    padding: 0 50px;
+    color: #5a5959;
+}
+
+.search-btn {
     height: 30px;
     padding: 0 30px;
     border-radius: 30px;
     font-size: 12px;
     text-transform: uppercase;
-    
+    margin-top: 25px;
+
+}
+
+.Servics {
+    margin-top: 190px;
+    padding: 100px 0;
+    background-color: rgb(205, 238, 205);
+}
+
+.Servics h5 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Servics h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.Servics .row {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto fill), minmax(300px, 1fr)
+}
+
+.Servics .row .col {
+    background: linear-gradient(to top, #fffcfc, #c8f3d7);
+    padding: 4px;
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.Servics .row .col h2 {
+   font-size: 24px;
+   margin: 20px;
+   font-weight: 700;
 }
 
 @media (max-width: 600px) {
     .nav-list {
-        display: none;}
-        .menu-icon{display: flex;}
-   }
-   
+        display: none;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
