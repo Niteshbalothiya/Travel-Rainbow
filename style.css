@@ -74,6 +74,7 @@ form{    position: absolute;
 
 @media (max-width: 600px) {
     .nav-list {
-        display: none;
-    }
+        display: none;}
+        .menu-icon{display: flex;}
+   }
 }
