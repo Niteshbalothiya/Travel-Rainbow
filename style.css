@@ -45,16 +45,34 @@ li {
     list-style: none;
     font-size: 1.0rem;
 }
+
 .menu-icon {
     font-size: 24px;
     font-weight: 700;
 }
-.content-wrapper{
+
+.content-wrapper {
     position: absolute;
     width: 100%;
+    top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #443d3d;
+    padding: 20px;
+    margin: auto;
 }
-@media (max-width: 600px){
-    .nav-list{
+.content-wrapper h1{
+    font-size: 23px;
+    font-weight: 700;
+}
+form{    position: absolute;
+      bottom: 0;
+      background: linear-gradient(to right, yellow,blue)
+}
+@media (max-width: 600px) {
+    .nav-list {
         display: none;
     }
 }
