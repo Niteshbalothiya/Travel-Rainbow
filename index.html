@@ -13,7 +13,7 @@
         <nav>
             <div class="container">
                 <h1 class="logo"><img src="image/travel.png" alt="" height="60px"></h1>
-                <div class="menu-icon">&#9776;</div>
+                <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
                 <ul class="nav-list">
                     <li class="item">Home</li>
                     <li class="item">About</li>
@@ -22,6 +22,16 @@
                     <li class="item">Servics</li>
                     <li class="item"> Feedback</li>
                 </ul>
+                <script>
+                    function toggleMenu() {
+                        var menu = document.getElementById('menu');
+                        if (menu.classList.contains('active')) {
+                            menu.classList.remove('active');
+                        } else {
+                            menu.classList.add('active');
+                        }
+                    }
+                </script>
         </nav>
         </div>
     </header>
