@@ -242,8 +242,8 @@ nav {
 @media (max-width)
  {.container{display: flex;
 align-items: center;justify-content: center;
-height: 120px;}
-    .nav-list{display: none;
-        margin-bottom: 20px;
-    }
+width: 100vw; }   .nav-list{display: none;
+display: flex;
+flex-direction: column;   
+ }
 }
