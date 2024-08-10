@@ -29,8 +29,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    flex-direction: column;
-}
+    flex-direction: column};
+
 
 .nav-list {
     display: flex;
