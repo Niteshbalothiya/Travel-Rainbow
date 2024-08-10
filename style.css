@@ -246,7 +246,8 @@ nav {
         flex-direction: column;
     }
     .lis{display: flex;
-        justify-content: center;}
+        justify-content: center;
+    flex-direction: column;}
     .nav-list {
         display: flex;
         flex-direction: column;
