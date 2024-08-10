@@ -244,9 +244,9 @@ nav {
         font-size: 14px;
         display: flex;
         flex-direction: column;
-
     }
-
+    .lis{display: flex;
+        justify-content: center;}
     .nav-list {
         display: flex;
         flex-direction: column;
