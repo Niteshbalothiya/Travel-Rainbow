@@ -243,11 +243,9 @@ nav {
 
 @media (max-width: 600) {
     .lis{display: flex;
-        justify-content: center;
-    flex-direction: column;}
+        justify-content: center;}
     .nav-list {
-        display: flex;
-        flex-direction: column;
+        display: none;
     }
     .logo{display: flex;
         justify-content: center;
