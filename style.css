@@ -239,11 +239,17 @@ nav {
     height: 100px;
 }
 
-@media (max-width)
- {.container{display: flex;
-align-items: center;justify-content: center;
-width: 100vw; }   .nav-list{display: none;
-display: flex;
-flex-direction: column;   
- }
+@media (max-width) {
+    .container {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo{max-width: 100vw;
+        height: auto;}
 }
