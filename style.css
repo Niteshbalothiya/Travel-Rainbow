@@ -228,6 +228,7 @@ footer p {
     justify-content: space-evenly;
 }
 
+
 nav {
     margin-top: 20px
 }
@@ -240,11 +241,7 @@ nav {
 }
 
 @media (max-width: 600) {
-    .container {
-        font-size: 14px;
-        display: flex;
-        flex-direction: column;
-    }
+    .container{flex-direction: column;}
     .lis{display: flex;
         justify-content: center;
     flex-direction: column;}
