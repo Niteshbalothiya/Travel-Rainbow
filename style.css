@@ -239,3 +239,11 @@ nav {
     height: 100px;
 }
 
+@media (max-width)
+ {.container{display: flex;
+align-items: center;justify-content: center;
+height: 120px;}
+    .nav-list{display: none;
+        margin-bottom: 20px;
+    }
+}
